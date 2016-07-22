@@ -1,0 +1,107 @@
+* {
+  font-family: 'Archivo Narrow', sans-serif;
+  font-size: 16px;
+}
+
+#main-stage {
+  width: 90%;
+  padding: 10px;
+  margin: auto;
+}
+
+header {
+  display: block;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3em;
+  margin-bottom: -5px;
+}
+
+p {
+  display: inline-block;
+  margin: 5px;
+}
+
+#button-style {
+  text-align: center;
+}
+
+button {
+  display: inline-block;
+  width: 190px;
+  padding: 10px 5px;
+  margin: 4px 2px;
+}
+
+/* text styles to be applied randomly */
+.style1 {
+  text-decoration: line-through;
+  color: magenta;
+}
+
+.style2 {
+  text-shadow: rgba(255,20,47,.75) 0 0 15px, rgba(255,20,47,.75) 0 0 10px;
+  color: red;
+}
+
+.style3 {
+  text-shadow: #474747 3px 5px 2px;
+  color: #FFFF00;
+  text-transform: capitalize;
+}
+
+.style4 {
+  font-size: 1.5em;
+  color: cyan;
+}
+
+.style5 {
+  color: black;
+}
+
+.style6 {
+  text-shadow: rgba(173,255,47,.75) 1px 1px 15px, rgba(173,255,47,.75) 0 0 10px;
+  color: #3CB371;
+  font-family: Courier;
+}
+
+.style7 {
+  font-family: Courier;
+  font-stretch: ultra-expanded;
+  border: 1px solid black;
+}
+
+.style8 {
+  color: #FFEBCD;
+  text-shadow: 1px 1px 5px #555555;
+}
+
+/* responsive styling */
+@media (max-width: 935px){
+  #main-stage {
+    width: 70%;
+  }
+
+  button {
+    display: inline-block;
+    width: 210px;
+    padding: 10px 5px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 635px){
+  #main-stage {
+    width: 90%;
+  }
+
+  button {
+    display: inline-block;
+    width: 400px;
+    padding: 10px 5px;
+    margin: 2px;
+    text-align: center;
+  }
+}
